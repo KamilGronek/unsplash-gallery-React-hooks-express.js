@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/unsplash-gallery-React-hooks-express/static/css/main.f630edc8.chunk.css",
+    "main.js": "/unsplash-gallery-React-hooks-express/static/js/main.941c4796.chunk.js",
+    "main.js.map": "/unsplash-gallery-React-hooks-express/static/js/main.941c4796.chunk.js.map",
+    "runtime-main.js": "/unsplash-gallery-React-hooks-express/static/js/runtime-main.d40ba6d6.js",
+    "runtime-main.js.map": "/unsplash-gallery-React-hooks-express/static/js/runtime-main.d40ba6d6.js.map",
+    "static/css/2.150d169a.chunk.css": "/unsplash-gallery-React-hooks-express/static/css/2.150d169a.chunk.css",
+    "static/js/2.005dfe18.chunk.js": "/unsplash-gallery-React-hooks-express/static/js/2.005dfe18.chunk.js",
+    "static/js/2.005dfe18.chunk.js.map": "/unsplash-gallery-React-hooks-express/static/js/2.005dfe18.chunk.js.map",
+    "static/js/3.c6e229ba.chunk.js": "/unsplash-gallery-React-hooks-express/static/js/3.c6e229ba.chunk.js",
+    "static/js/3.c6e229ba.chunk.js.map": "/unsplash-gallery-React-hooks-express/static/js/3.c6e229ba.chunk.js.map",
+    "index.html": "/unsplash-gallery-React-hooks-express/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/unsplash-gallery-React-hooks-express/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.f630edc8.chunk.css.map": "/unsplash-gallery-React-hooks-express/static/css/main.f630edc8.chunk.css.map",
+    "static/js/2.005dfe18.chunk.js.LICENSE.txt": "/unsplash-gallery-React-hooks-express/static/js/2.005dfe18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d40ba6d6.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.005dfe18.chunk.js",
+    "static/css/main.f630edc8.chunk.css",
+    "static/js/main.941c4796.chunk.js"
+  ]
+}
