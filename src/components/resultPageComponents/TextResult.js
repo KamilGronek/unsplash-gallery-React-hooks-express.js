@@ -3,12 +3,12 @@ import { ResultPageContext } from "../pageContext/ResultPageContext";
 
 function TextResult(){
 
-        const {TextResult,handleOnClick}  =useContext(ResultPageContext)
+        const {textResult,handleOnClick}  = useContext(ResultPageContext)
     
     return(
         <div className="gallery__info">
         <h1 className="textResult" style={{ paddingBottom: "20px" }}>
-          {TextResult()}
+          {textResult()}
         </h1>
         <span style={{ cursor: "pointer" }} onClick={handleOnClick}>
           Go back

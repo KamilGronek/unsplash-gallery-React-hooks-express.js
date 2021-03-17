@@ -2,11 +2,11 @@ import {useContext} from "react";
 import { ResultPageContext } from "../pageContext/ResultPageContext";
 
  export function ReturnModal(){
-    const {ShowModal
+    const {galleryModal
     } = useContext(ResultPageContext);
 
     return(
-        ShowModal()
+        galleryModal()
     )
 
 }

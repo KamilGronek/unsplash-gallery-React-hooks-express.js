@@ -2,7 +2,7 @@ import React, {createContext, useState, useEffect } from "react";
 import axios from "axios";
 import { useHistory, useLocation, useParams } from "react-router-dom";
 import ModalSide from "../resultPageComponents/contextComponents/ModalSide";
-import ShowGallery from "../resultPageComponents/contextComponents/ShowGallery";
+import Gallery from "../resultPageComponents/contextComponents/Gallery";
 
 export const ResultPageContext = createContext();
 
@@ -57,22 +57,22 @@ export const  ResultPageProvider=({children})=> {
     }
   };
 
-  const getIdPicture = (id) => {
+  const getPictureId = (id) => {
     setId(id);
     setModalIsOpen(true);
   };
 
-  const showGallery = () => {
+  const gallery = () => {
     return resultsPhotoArray.map((result) => (
-      <ShowGallery
+      <Gallery
         key={result.id}
         result={result}
-        getIdPicture={getIdPicture}
+        getPictureId={getPictureId}
       />
     ));
   };
 
-  const ShowModal = () => {
+  const galleryModal = () => {
     let tab = resultsPhotoArray
       .filter((result) => result.id === id)
       .map((res) => (
@@ -86,7 +86,7 @@ export const  ResultPageProvider=({children})=> {
     return tab;
   };
 
-  const TextResult = () => {
+  const textResult = () => {
     return inputName;
   };
 
@@ -100,7 +100,7 @@ export const  ResultPageProvider=({children})=> {
 
   return(
       <ResultPageContext.Provider value={{resultsArray,onClickEnter,handleInputSearch,handleOnClick
-      ,handleAutoComplete, showGallery,ShowModal,TextResult}}>
+      ,handleAutoComplete, gallery,galleryModal,textResult}}>
           {children}
       </ResultPageContext.Provider>
   )

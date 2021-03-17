@@ -1,6 +1,6 @@
 import React from "react";
 
-function ShowGallery(props) {
+function Gallery(props) {
   return (
     <article style={{ borderStyle: "none" }} className="card">
       <img
@@ -9,10 +9,10 @@ function ShowGallery(props) {
         className="card__image"
         src={props.result.urls.thumb}
         alt=""
-        onClick={() => props.getIdPicture(props.result.id)}
+        onClick={() => props.getPictureId(props.result.id)}
       />
     </article>
   );
 }
 
-export default ShowGallery;
+export default Gallery;
